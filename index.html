@@ -5,15 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Gaming Website</title>
 
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: #111;
-            color: #fff;
-            font-family: Arial, sans-serif;
-        }
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        header {
-            text-align: center;
-            backgro
+<body>
+
+    <header>My Gaming Website</header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Games</a>
+        <a href="#">About</a>
+    </nav>
+
+    <div class="container">
+        <h2>Featured Games</h2>
+
+        <div class="game-card">
+            <h3>Game 1</h3>
+            <p>Fun and exciting browser game!</p>
+            <button onclick="alert('Launching Game 1...')">Play Now</button>
+        </div>
+
+        <div class="game-card">
+            <h3>Game 2</h3>
+            <p>Another awesome game to enjoy!</p>
+            <button onclick="alert('Launching Game 2...')">
